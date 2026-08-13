@@ -367,7 +367,17 @@ footer p {
     color: white;
     background: var(--blue);
 }
+@media (max-width: 600px) {
+    .career-item {
+        grid-template-columns: 1fr;
+        gap: 0.2rem;
+        margin-bottom: 1.5rem;
+    }
 
+    .career-year {
+        font-size: 0.82rem;
+    }
+}
 .back-link {
     display: inline-block;
     margin-top: 3rem;
