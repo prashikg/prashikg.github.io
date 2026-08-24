@@ -5,7 +5,7 @@
 @media(max-width:900px){.site-header .navbar{height:88px;min-height:88px}.logo{width:170px;height:76px;flex-basis:170px}.logo img{width:170px!important;height:76px!important}.hero{min-height:calc(100vh - 88px)}}
 @media(max-width:700px){.site-header .navbar{height:78px;min-height:78px}.logo{width:145px;height:68px;flex-basis:145px}.logo img{width:145px!important;height:68px!important}.hero{min-height:calc(100vh - 78px)}.nav-links{padding-left:20px}}
 /* Final logo sizing: restore the previous desktop logo size; the SVG viewBox now contains the entire mark. */
-@media(min-width:1101px){.logo{width:190px;height:82px;flex-basis:190px}.logo img{width:190px!important;height:82px!important;object-fit:contain;max-width:100%;max-height:100%}.nav-links{padding-left:22px}}
-@media(max-width:1100px) and (min-width:901px){.logo{width:175px;height:76px;flex-basis:175px}.logo img{width:175px!important;height:76px!important;object-fit:contain;max-width:100%;max-height:100%}}
+@media(min-width:1101px){.logo{width:190px;height:82px;flex-basis:190px}.logo img{width:190px!important;height:82px!important;object-fit:contain;max-width:100%;max-height:100%}.nav-links{padding-left:22px}.nav-links a{font-size:1rem}}
+@media(max-width:1100px) and (min-width:901px){.logo{width:175px;height:76px;flex-basis:175px}.logo img{width:175px!important;height:76px!important;object-fit:contain;max-width:100%;max-height:100%}.nav-links a{font-size:.9rem}}
 @media(max-width:900px){.logo{width:170px;height:76px;flex-basis:170px}.logo img{width:170px!important;height:76px!important;object-fit:contain;max-width:100%;max-height:100%}}
 @media(max-width:700px){.logo{width:145px;height:68px;flex-basis:145px}.logo img{width:145px!important;height:68px!important;object-fit:contain;max-width:100%;max-height:100%}}
